@@ -1,14 +1,14 @@
 
 // ⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈
-//▮ZIM BOT INC 2022 ®️ALL RIGHTS RESERVED
+//▮MS-THARU 2022 ®️ALL RIGHTS RESERVED
 //▮
 //▮FORK AND DON'T FORGET TO GIVE A STAR
 //▮
 //▮THIS SOFTWARE IS UNDER UZ COPYRIGHT
 //▮
 //▮REPORT ABUSE OF THIS SOFTWARE EMAIL US
-//▮reinhardtuna@mail.uk
-//▮WHATSAPP US : +44 7441 437150
+//▮gayanthaprabod9@mail.uk
+//▮WHATSAPP US : +94758512807
 //▮YOUTUBE CHANNELL: https://youtube.com/c/DRIPSOFC
 //▮
 //╰▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
@@ -17,7 +17,7 @@
 //┃THIS SOFTWARE INCLUDES 
 //┃SOME ENCRYPTED FILES
 //┃
-//┃THANKS FOR CHOOSING ZIMBOT
+//┃THANKS FOR CHOOSING MS-THARU
 //┃THANKS TO DikaArdnt
 //┃BEHOLD THE NEW
 //┃
@@ -69,9 +69,9 @@ const setting = JSON.parse(fs.readFileSync('./apikey.json'))
 
 //buat info zvibhorani zivi
 limitawal = '100'
-botname = 'ZIM BOT INC'
-wm = 'ZIM BOT INC'
-global.reactmoji = '🇿🇼'
+botname = 'MS-THARU'
+wm = 'MS-THARU'
+global.reactmoji = '🇱🇰'
 limitCount = setting.limit
 
 //read database
@@ -122,7 +122,7 @@ module.exports = ZimBotInc = async (ZimBotInc, m, chatUpdate, store) => {
     	const isBotAdmins = m.isGroup ? groupAdmins.includes(botNumber) : false
     	const isAdmins = m.isGroup ? groupAdmins.includes(m.sender) : false
         const isAntiwame = m.isGroup ? antiwame.includes(m.chat) : false
-        const isAntiVirtex = m.isGroup ? _antivirtex.includes(m.chat) : false
+        const isAntiVirtex = m.isGroup ? _antivirtex.includes(m.chat) : true
         const isAntilinkyt = m.isGroup ? antilinkyt.includes(m.chat) : false
         const isAntibule = m.isGroup ? antibule.includes(m.chat) : false
         const antiToxic = m.isGroup ? dripsanti.includes(from) : false
@@ -257,8 +257,8 @@ if(time2 < "05:00:00"){
 var ucapannya2 = `Good morning 🌅`
 }
 
-global.botdev = ['27634090203','447441437150']
-global.bothelp = ['918188019676']
+global.botdev = ['94758512807','447441437150']
+global.bothelp = ['94758512807']
 
 //function rpg
    const { 
